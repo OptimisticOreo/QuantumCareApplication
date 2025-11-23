@@ -1,0 +1,762 @@
+warning: Git tree '/usr/local/monospace/templates/private/_local_import' is dirty
+these 6 derivations will be built:
+  /nix/store/jkn5vw7nir3591d1hhan4q5qzyv6xrvm-idx-template.drv
+  /nix/store/r1g97pfblqkssrarpkj6dcwmj6sv8ig5-sandbox-files.drv
+  /nix/store/v5ii659s2cc5c5dfxp1ys60svzxkv6hi-builder.pl.drv
+  /nix/store/zwawb5n7jxvrsv4q00pn6cji8m0sw1ap-sandbox.drv
+  /nix/store/c32g9x7pk67qy923rdz3jwqbh7ji1p31-usr-env.drv
+  /nix/store/p3y5jxd5f1pwrx7w6zj411jsd9973106-idx-template.drv
+these 13 paths will be fetched (12.74 MiB download, 118.94 MiB unpacked):
+  /nix/store/1jnl0g7a6fcc7ma4f4kg77arpz84ifzf-ShellCheck-0.9.0
+  /nix/store/wam6939g2ch4aj6g30nfcsfm9lchmmjy-bash-5.2-p15-man
+  /nix/store/h5wbzr3h7hazy446j81nshp1i3fdnsxw-curl-8.4.0-man
+  /nix/store/gnx2p695iqmlr0w88ccklbgwim6axcmb-ed-1.19
+  /nix/store/v8p4q804sx0jjpds4xpk7sf64sy3jb1r-file-5.45
+  /nix/store/rwrw7zjjw884w3myrjnhf78dq3zrmgsf-gnu-config-2023-09-19
+  /nix/store/w9v3jmfwl6dc96l2p6k6c0lc6affyxi1-gnumake-4.4.1
+  /nix/store/88gf3i3nis12h1z1mkrqjsycchgcqjzr-patch-2.7.6
+  /nix/store/yf4fcxik258lrm0r4vxjv05wy1svd6i2-patchelf-0.15.0
+  /nix/store/72ww6m5915nw48q1nlij1i0pkr363zcb-stdenv-linux
+  /nix/store/x78if997ckjnsbs524iyvajvz607hqkv-ts-node-10.9.1
+  /nix/store/26vvnzfjg860ny4s7s1af38nskpfyps1-typescript-5.2.2
+  /nix/store/a4la4kzmq9kwqc71kf9lksx15pcq8wbg-update-autotools-gnu-config-scripts-hook
+copying path '/nix/store/1jnl0g7a6fcc7ma4f4kg77arpz84ifzf-ShellCheck-0.9.0' from 'https://cache.nixos.org' to 'local-overlay://'...
+copying path '/nix/store/rwrw7zjjw884w3myrjnhf78dq3zrmgsf-gnu-config-2023-09-19' from 'https://cache.nixos.org' to 'local-overlay://'...
+copying path '/nix/store/gnx2p695iqmlr0w88ccklbgwim6axcmb-ed-1.19' from 'https://cache.nixos.org' to 'local-overlay://'...
+copying path '/nix/store/v8p4q804sx0jjpds4xpk7sf64sy3jb1r-file-5.45' from 'https://cache.nixos.org' to 'local-overlay://'...
+copying path '/nix/store/w9v3jmfwl6dc96l2p6k6c0lc6affyxi1-gnumake-4.4.1' from 'https://cache.nixos.org' to 'local-overlay://'...
+copying path '/nix/store/yf4fcxik258lrm0r4vxjv05wy1svd6i2-patchelf-0.15.0' from 'https://cache.nixos.org' to 'local-overlay://'...
+copying path '/nix/store/wam6939g2ch4aj6g30nfcsfm9lchmmjy-bash-5.2-p15-man' from 'https://cache.nixos.org' to 'local-overlay://'...
+copying path '/nix/store/h5wbzr3h7hazy446j81nshp1i3fdnsxw-curl-8.4.0-man' from 'https://cache.nixos.org' to 'local-overlay://'...
+copying path '/nix/store/26vvnzfjg860ny4s7s1af38nskpfyps1-typescript-5.2.2' from 'https://cache.nixos.org' to 'local-overlay://'...
+copying path '/nix/store/a4la4kzmq9kwqc71kf9lksx15pcq8wbg-update-autotools-gnu-config-scripts-hook' from 'https://cache.nixos.org' to 'local-overlay://'...
+copying path '/nix/store/88gf3i3nis12h1z1mkrqjsycchgcqjzr-patch-2.7.6' from 'https://cache.nixos.org' to 'local-overlay://'...
+copying path '/nix/store/72ww6m5915nw48q1nlij1i0pkr363zcb-stdenv-linux' from 'https://cache.nixos.org' to 'local-overlay://'...
+building '/nix/store/v5ii659s2cc5c5dfxp1ys60svzxkv6hi-builder.pl.drv'...
+copying path '/nix/store/x78if997ckjnsbs524iyvajvz607hqkv-ts-node-10.9.1' from 'https://cache.nixos.org' to 'local-overlay://'...
+building '/nix/store/r1g97pfblqkssrarpkj6dcwmj6sv8ig5-sandbox-files.drv'...
+building '/nix/store/jkn5vw7nir3591d1hhan4q5qzyv6xrvm-idx-template.drv'...
+building '/nix/store/zwawb5n7jxvrsv4q00pn6cji8m0sw1ap-sandbox.drv'...
+created 430 symlinks in user environment
+building '/nix/store/c32g9x7pk67qy923rdz3jwqbh7ji1p31-usr-env.drv'...
+/nix/store/a0ad3xs1rxyj0qbvpg7pn9fva27nasx6-usr-env /build
+/nix/store/a0ad3xs1rxyj0qbvpg7pn9fva27nasx6-usr-env/usr /nix/store/a0ad3xs1rxyj0qbvpg7pn9fva27nasx6-usr-env /build
+/nix/store/a0ad3xs1rxyj0qbvpg7pn9fva27nasx6-usr-env /build
+building '/nix/store/p3y5jxd5f1pwrx7w6zj411jsd9973106-idx-template.drv'...
+Fetching users imported file...
+/nix/store/yykl8xj87grp4h9gfyvxiwyzzih7sdpk-qj85la07lhhzrcisqynps3pqy5id5fa1-source [ 'README.md', 'idx-template.json', 'idx-template.nix', 'unzipper.ts' ]
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 34.7M    0 64096    0     0   114k      0  0:05:11 --:--:--  0:05:11  114k  6 34.7M    6 2304k    0     0  1517k      0  0:00:23  0:00:01  0:00:22 1516k 67 34.7M   67 23.5M    0     0  9570k      0  0:00:03  0:00:02  0:00:01 9570k100 34.7M  100 34.7M    0     0  11.6M      0  0:00:02  0:00:02 --:--:-- 11.5M
+Extracting imported file to /out/quantumcare...
+Archive:  /out/quantumcare/downloaded_file
+   creating: /out/quantumcare/App/
+   creating: /out/quantumcare/App/.dart_tool/
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Account Web Data  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Account Web Data-journal  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Affiliation Database  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Affiliation Database-journal  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/AutofillStrikeDatabase/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/AutofillStrikeDatabase/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/AutofillStrikeDatabase/LOG  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/blob_storage/
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/blob_storage/dff8bd59-b92c-4f16-bb75-dc04713da1ff/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/BookmarkMergedSurfaceOrdering  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/BrowsingTopicsSiteData  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/BrowsingTopicsSiteData-journal  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/BrowsingTopicsState  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/BudgetDatabase/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/BudgetDatabase/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/BudgetDatabase/LOG  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/chrome_cart_db/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/chrome_cart_db/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/chrome_cart_db/LOG  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/ClientCertificates/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/ClientCertificates/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/ClientCertificates/LOG  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/commerce_subscription_db/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/commerce_subscription_db/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/commerce_subscription_db/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/DIPS  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/discounts_db/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/discounts_db/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/discounts_db/LOG  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/discount_infos_db/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/discount_infos_db/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/discount_infos_db/LOG  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Download Service/
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Download Service/EntryDB/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Download Service/EntryDB/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Download Service/EntryDB/LOG  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Download Service/Files/
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension Rules/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension Rules/000003.log  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension Rules/CURRENT  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension Rules/LOCK  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension Rules/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension Rules/MANIFEST-000001  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension Scripts/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension Scripts/000003.log  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension Scripts/CURRENT  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension Scripts/LOCK  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension Scripts/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension Scripts/MANIFEST-000001  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension State/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension State/000003.log  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension State/CURRENT  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension State/LOCK  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension State/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Extension State/MANIFEST-000001  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Favicons  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Favicons-journal  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Feature Engagement Tracker/
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Feature Engagement Tracker/AvailabilityDB/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Feature Engagement Tracker/AvailabilityDB/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Feature Engagement Tracker/AvailabilityDB/LOG  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Feature Engagement Tracker/EventDB/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Feature Engagement Tracker/EventDB/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Feature Engagement Tracker/EventDB/LOG  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/GCM Store/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/GCM Store/000003.log  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/GCM Store/CURRENT  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/GCM Store/Encryption/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/GCM Store/Encryption/000003.log  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/GCM Store/Encryption/CURRENT  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/GCM Store/Encryption/LOCK  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/GCM Store/Encryption/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/GCM Store/Encryption/MANIFEST-000001  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/GCM Store/LOCK  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/GCM Store/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/GCM Store/MANIFEST-000001  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/heavy_ad_intervention_opt_out.db  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/heavy_ad_intervention_opt_out.db-journal  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/History  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/History-journal  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Local Storage/
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Local Storage/leveldb/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Local Storage/leveldb/000003.log  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Local Storage/leveldb/CURRENT  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Local Storage/leveldb/LOCK  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Local Storage/leveldb/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Local Storage/leveldb/MANIFEST-000001  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Login Data  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Login Data For Account  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Login Data For Account-journal  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Login Data-journal  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Network/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Network/Cookies  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Network/Cookies-journal  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Network/Network Persistent State  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Network/NetworkDataMigrated  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Network/Reporting and NEL  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Network/Reporting and NEL-journal  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Network/TransportSecurity  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Network/Trust Tokens  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Network/Trust Tokens-journal  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Network Action Predictor  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Network Action Predictor-journal  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/optimization_guide_hint_cache_store/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/optimization_guide_hint_cache_store/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/optimization_guide_hint_cache_store/LOG  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/parcel_tracking_db/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/parcel_tracking_db/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/parcel_tracking_db/LOG  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/PersistentOriginTrials/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/PersistentOriginTrials/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/PersistentOriginTrials/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Preferences  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/PreferredApps  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/README  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Safe Browsing Network/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Safe Browsing Network/NetworkDataMigrated  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Safe Browsing Network/Safe Browsing Cookies  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Safe Browsing Network/Safe Browsing Cookies-journal  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Secure Preferences  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Segmentation Platform/
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Segmentation Platform/SegmentInfoDB/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Segmentation Platform/SegmentInfoDB/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Segmentation Platform/SegmentInfoDB/LOG  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Segmentation Platform/SignalDB/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Segmentation Platform/SignalDB/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Segmentation Platform/SignalDB/LOG  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Segmentation Platform/SignalStorageConfigDB/
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Segmentation Platform/SignalStorageConfigDB/LOCK  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Segmentation Platform/SignalStorageConfigDB/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/ServerCertificate  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/ServerCertificate-journal  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/Database/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/Database/000003.log  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/Database/CURRENT  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/Database/LOCK  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/Database/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/Database/MANIFEST-000001  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_0  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/4cb013792b196a35_0  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/4cb013792b196a35_1  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/index  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/index-dir/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/index-dir/the-real-index  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Session Storage/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Session Storage/000003.log  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Session Storage/CURRENT  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Session Storage/LOCK  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Session Storage/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Session Storage/MANIFEST-000001  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Sessions/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Sessions/Session_13408273604631352  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Sessions/Session_13408273671889051  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Sessions/Tabs_13408273776749590  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Shared Dictionary/
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Shared Dictionary/cache/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Shared Dictionary/cache/index  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Shared Dictionary/cache/index-dir/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Shared Dictionary/cache/index-dir/the-real-index  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Shared Dictionary/db  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Shared Dictionary/db-journal  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/SharedStorage  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/shared_proto_db/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/shared_proto_db/000003.log  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/shared_proto_db/CURRENT  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/shared_proto_db/LOCK  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/shared_proto_db/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/shared_proto_db/MANIFEST-000001  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/shared_proto_db/metadata/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/shared_proto_db/metadata/000003.log  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/shared_proto_db/metadata/CURRENT  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOCK  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/shared_proto_db/metadata/MANIFEST-000001  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Shortcuts  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Shortcuts-journal  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Site Characteristics Database/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Site Characteristics Database/000003.log  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Site Characteristics Database/CURRENT  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Site Characteristics Database/LOCK  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Site Characteristics Database/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Site Characteristics Database/MANIFEST-000001  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Sync Data/
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Sync Data/LevelDB/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Sync Data/LevelDB/000003.log  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Sync Data/LevelDB/CURRENT  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOCK  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOG  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Sync Data/LevelDB/MANIFEST-000001  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Top Sites  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Top Sites-journal  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/trusted_vault.pb  
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/Web Data  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/Web Data-journal  
+   creating: /out/quantumcare/App/.dart_tool/chrome-device/Default/WebStorage/
+  inflating: /out/quantumcare/App/.dart_tool/chrome-device/Default/WebStorage/QuotaManager  
+ extracting: /out/quantumcare/App/.dart_tool/chrome-device/Default/WebStorage/QuotaManager-journal  
+   creating: /out/quantumcare/App/.dart_tool/dartpad/
+  inflating: /out/quantumcare/App/.dart_tool/dartpad/web_plugin_registrant.dart  
+   creating: /out/quantumcare/App/.dart_tool/extension_discovery/
+  inflating: /out/quantumcare/App/.dart_tool/extension_discovery/vs_code.json  
+  inflating: /out/quantumcare/App/.dart_tool/package_config.json  
+  inflating: /out/quantumcare/App/.dart_tool/package_graph.json  
+  inflating: /out/quantumcare/App/.dart_tool/version  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/.dart_tool/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/.dart_tool/package_config.json  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/.dart_tool/package_graph.json  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/.dart_tool/version  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/.gitignore  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/.idea/
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/.idea/libraries/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/.idea/libraries/Dart_SDK.xml  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/.idea/libraries/KotlinJavaRuntime.xml  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/.idea/modules.xml  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/.idea/runConfigurations/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/.idea/runConfigurations/main_dart.xml  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/.idea/workspace.xml  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/analysis_options.yaml  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/.last_build_id  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/ced8754969fdfb3bb504e005edc041ce/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/ced8754969fdfb3bb504e005edc041ce/.filecache  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/ced8754969fdfb3bb504e005edc041ce/dart_build.d  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/ced8754969fdfb3bb504e005edc041ce/dart_build.stamp  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/ced8754969fdfb3bb504e005edc041ce/dart_build_result.json  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/ced8754969fdfb3bb504e005edc041ce/gen_dart_plugin_registrant.stamp  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/ced8754969fdfb3bb504e005edc041ce/gen_localizations.stamp  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/ced8754969fdfb3bb504e005edc041ce/outputs.json  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/ced8754969fdfb3bb504e005edc041ce/_composite.stamp  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/d9a573ca832080077a77c3dbf6219439.cache.dill.track.dill  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/fonts/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/NOTICES  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/packages/
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/packages/cupertino_icons/
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/packages/cupertino_icons/assets/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/packages/flutter_map/
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/packages/flutter_map/lib/
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/packages/flutter_map/lib/assets/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/packages/flutter_map/lib/assets/flutter_map_logo.png  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/shaders/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/shaders/ink_sparkle.frag  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/flutter_assets/shaders/stretch_effect.frag  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/native_assets/
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/build/native_assets/web/
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/main.dart  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/controls.dart  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/dtd/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/dtd/dtd_services.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/dtd/editor_service.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/dtd/utils.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/generated_preview.dart  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/theme/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/theme/ide_theme.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/theme/theme.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/theme/_ide_theme_desktop.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/theme/_ide_theme_web.dart  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/utils/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/utils/color_utils.dart  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/utils/url/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/utils/url/url.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/utils/url/_url_stub.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/utils/url/_url_web.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/utils.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/widget_preview.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/widget_preview_inspector_service.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/widget_preview_rendering.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/lib/src/widget_preview_scaffold_controller.dart  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/preview_manifest.json  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/pubspec.lock  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/pubspec.yaml  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/README.md  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/web/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/web/favicon.png  
+   creating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/web/icons/
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/web/icons/Icon-192.png  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/web/icons/Icon-512.png  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/web/icons/Icon-maskable-192.png  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/web/icons/Icon-maskable-512.png  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/web/index.html  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/web/manifest.json  
+  inflating: /out/quantumcare/App/.dart_tool/widget_preview_scaffold/widget_preview_scaffold.iml  
+  inflating: /out/quantumcare/App/.gitignore  
+   creating: /out/quantumcare/App/.idea/
+   creating: /out/quantumcare/App/.idea/libraries/
+  inflating: /out/quantumcare/App/.idea/libraries/Dart_SDK.xml  
+  inflating: /out/quantumcare/App/.idea/libraries/KotlinJavaRuntime.xml  
+  inflating: /out/quantumcare/App/.idea/modules.xml  
+   creating: /out/quantumcare/App/.idea/runConfigurations/
+  inflating: /out/quantumcare/App/.idea/runConfigurations/main_dart.xml  
+  inflating: /out/quantumcare/App/.idea/workspace.xml  
+  inflating: /out/quantumcare/App/.metadata  
+   creating: /out/quantumcare/App/.vscode/
+  inflating: /out/quantumcare/App/.vscode/launch.json  
+  inflating: /out/quantumcare/App/analysis_options.yaml  
+   creating: /out/quantumcare/App/android/
+  inflating: /out/quantumcare/App/android/.gitignore  
+   creating: /out/quantumcare/App/android/app/
+  inflating: /out/quantumcare/App/android/app/build.gradle.kts  
+   creating: /out/quantumcare/App/android/app/src/
+   creating: /out/quantumcare/App/android/app/src/debug/
+  inflating: /out/quantumcare/App/android/app/src/debug/AndroidManifest.xml  
+   creating: /out/quantumcare/App/android/app/src/main/
+  inflating: /out/quantumcare/App/android/app/src/main/AndroidManifest.xml  
+   creating: /out/quantumcare/App/android/app/src/main/java/
+   creating: /out/quantumcare/App/android/app/src/main/java/io/
+   creating: /out/quantumcare/App/android/app/src/main/java/io/flutter/
+   creating: /out/quantumcare/App/android/app/src/main/java/io/flutter/plugins/
+  inflating: /out/quantumcare/App/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java  
+   creating: /out/quantumcare/App/android/app/src/main/kotlin/
+   creating: /out/quantumcare/App/android/app/src/main/kotlin/com/
+   creating: /out/quantumcare/App/android/app/src/main/kotlin/com/example/
+   creating: /out/quantumcare/App/android/app/src/main/kotlin/com/example/wban_monitor/
+  inflating: /out/quantumcare/App/android/app/src/main/kotlin/com/example/wban_monitor/MainActivity.kt  
+   creating: /out/quantumcare/App/android/app/src/main/res/
+   creating: /out/quantumcare/App/android/app/src/main/res/drawable/
+  inflating: /out/quantumcare/App/android/app/src/main/res/drawable/launch_background.xml  
+   creating: /out/quantumcare/App/android/app/src/main/res/drawable-v21/
+  inflating: /out/quantumcare/App/android/app/src/main/res/drawable-v21/launch_background.xml  
+   creating: /out/quantumcare/App/android/app/src/main/res/mipmap-hdpi/
+  inflating: /out/quantumcare/App/android/app/src/main/res/mipmap-hdpi/ic_launcher.png  
+   creating: /out/quantumcare/App/android/app/src/main/res/mipmap-mdpi/
+  inflating: /out/quantumcare/App/android/app/src/main/res/mipmap-mdpi/ic_launcher.png  
+   creating: /out/quantumcare/App/android/app/src/main/res/mipmap-xhdpi/
+  inflating: /out/quantumcare/App/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png  
+   creating: /out/quantumcare/App/android/app/src/main/res/mipmap-xxhdpi/
+  inflating: /out/quantumcare/App/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png  
+   creating: /out/quantumcare/App/android/app/src/main/res/mipmap-xxxhdpi/
+  inflating: /out/quantumcare/App/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png  
+   creating: /out/quantumcare/App/android/app/src/main/res/values/
+  inflating: /out/quantumcare/App/android/app/src/main/res/values/styles.xml  
+   creating: /out/quantumcare/App/android/app/src/main/res/values-night/
+  inflating: /out/quantumcare/App/android/app/src/main/res/values-night/styles.xml  
+   creating: /out/quantumcare/App/android/app/src/profile/
+  inflating: /out/quantumcare/App/android/app/src/profile/AndroidManifest.xml  
+  inflating: /out/quantumcare/App/android/build.gradle.kts  
+   creating: /out/quantumcare/App/android/gradle/
+   creating: /out/quantumcare/App/android/gradle/wrapper/
+  inflating: /out/quantumcare/App/android/gradle/wrapper/gradle-wrapper.jar  
+  inflating: /out/quantumcare/App/android/gradle/wrapper/gradle-wrapper.properties  
+  inflating: /out/quantumcare/App/android/gradle.properties  
+  inflating: /out/quantumcare/App/android/gradlew  
+  inflating: /out/quantumcare/App/android/gradlew.bat  
+  inflating: /out/quantumcare/App/android/local.properties  
+  inflating: /out/quantumcare/App/android/settings.gradle.kts  
+  inflating: /out/quantumcare/App/android/wban_monitor_android.iml  
+  inflating: /out/quantumcare/App/Base_code_flutter.dart  
+   creating: /out/quantumcare/App/build/
+  inflating: /out/quantumcare/App/build/.last_build_id  
+   creating: /out/quantumcare/App/build/3a9fc2e5a06c785067871b717a5b8fb6/
+  inflating: /out/quantumcare/App/build/3a9fc2e5a06c785067871b717a5b8fb6/.filecache  
+  inflating: /out/quantumcare/App/build/3a9fc2e5a06c785067871b717a5b8fb6/dart_build.d  
+  inflating: /out/quantumcare/App/build/3a9fc2e5a06c785067871b717a5b8fb6/dart_build.stamp  
+  inflating: /out/quantumcare/App/build/3a9fc2e5a06c785067871b717a5b8fb6/dart_build_result.json  
+  inflating: /out/quantumcare/App/build/3a9fc2e5a06c785067871b717a5b8fb6/gen_dart_plugin_registrant.stamp  
+  inflating: /out/quantumcare/App/build/3a9fc2e5a06c785067871b717a5b8fb6/gen_localizations.stamp  
+  inflating: /out/quantumcare/App/build/3a9fc2e5a06c785067871b717a5b8fb6/outputs.json  
+  inflating: /out/quantumcare/App/build/3a9fc2e5a06c785067871b717a5b8fb6/_composite.stamp  
+  inflating: /out/quantumcare/App/build/ca33f282d90356a564f3e3da52c97351.cache.dill.track.dill  
+   creating: /out/quantumcare/App/build/flutter_assets/
+  inflating: /out/quantumcare/App/build/flutter_assets/AssetManifest.bin  
+  inflating: /out/quantumcare/App/build/flutter_assets/AssetManifest.bin.json  
+  inflating: /out/quantumcare/App/build/flutter_assets/FontManifest.json  
+   creating: /out/quantumcare/App/build/flutter_assets/fonts/
+  inflating: /out/quantumcare/App/build/flutter_assets/fonts/MaterialIcons-Regular.otf  
+  inflating: /out/quantumcare/App/build/flutter_assets/NOTICES  
+   creating: /out/quantumcare/App/build/flutter_assets/packages/
+   creating: /out/quantumcare/App/build/flutter_assets/packages/cupertino_icons/
+   creating: /out/quantumcare/App/build/flutter_assets/packages/cupertino_icons/assets/
+  inflating: /out/quantumcare/App/build/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf  
+   creating: /out/quantumcare/App/build/flutter_assets/packages/flutter_map/
+   creating: /out/quantumcare/App/build/flutter_assets/packages/flutter_map/lib/
+   creating: /out/quantumcare/App/build/flutter_assets/packages/flutter_map/lib/assets/
+  inflating: /out/quantumcare/App/build/flutter_assets/packages/flutter_map/lib/assets/flutter_map_logo.png  
+   creating: /out/quantumcare/App/build/flutter_assets/shaders/
+  inflating: /out/quantumcare/App/build/flutter_assets/shaders/ink_sparkle.frag  
+  inflating: /out/quantumcare/App/build/flutter_assets/shaders/stretch_effect.frag  
+   creating: /out/quantumcare/App/build/native_assets/
+   creating: /out/quantumcare/App/build/native_assets/web/
+   creating: /out/quantumcare/App/cache/
+  inflating: /out/quantumcare/App/cache/26a7511794_11_1022_1365.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_11_1022_1366.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_11_1022_1367.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_11_1022_1368.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_11_1023_1365.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_11_1023_1366.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_11_1023_1367.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_11_1023_1368.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_11_1024_1365.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_11_1024_1366.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_11_1024_1367.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_11_1024_1368.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2045_2732.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2045_2733.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2045_2734.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2045_2735.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2046_2732.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2046_2733.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2046_2734.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2046_2735.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2047_2732.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2047_2733.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2047_2734.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2047_2735.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2675_2344.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2676_2343.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2676_2344.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2677_2343.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_12_2677_2344.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_4092_5467.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_4092_5468.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_4092_5469.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_4093_5468.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_4093_5469.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5352_4687.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5352_4688.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5352_4689.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5352_4690.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5353_4687.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5353_4688.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5353_4689.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5353_4690.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5354_4687.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5354_4688.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5354_4689.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5354_4690.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5355_4687.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5355_4688.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5355_4689.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5355_4690.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5356_4687.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5356_4688.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5356_4689.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5356_4690.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5357_4687.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5357_4688.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_13_5357_4689.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_14_10706_9376.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_14_10706_9377.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_14_10707_9376.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_14_10707_9377.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_14_10708_9376.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_14_10708_9377.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_14_10708_9378.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_14_10709_9376.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_14_10709_9377.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_14_10709_9378.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21413_18754.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21413_18755.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21413_18756.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21413_18757.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21414_18754.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21414_18755.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21414_18756.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21414_18757.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21415_18754.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21415_18755.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21415_18756.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21415_18757.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21416_18754.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21416_18755.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21416_18756.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21416_18757.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21417_18754.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21417_18755.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21417_18756.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21417_18757.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21419_18754.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21420_18753.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21420_18754.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21420_18755.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21421_18753.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21421_18754.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21421_18755.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21422_18753.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21422_18754.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21422_18755.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21423_18753.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21423_18754.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21423_18755.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21424_18753.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21424_18754.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_15_21424_18755.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42828_37510.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42828_37511.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42828_37512.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42829_37510.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42829_37511.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42829_37512.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42830_37510.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42830_37511.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42830_37512.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42830_37513.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42831_37510.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42831_37511.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42831_37512.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42831_37513.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42832_37510.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42832_37511.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42832_37512.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42840_37508.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42840_37509.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42841_37508.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42841_37509.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42842_37508.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42842_37509.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42842_37510.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42843_37508.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42843_37509.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_16_42843_37510.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_17_85657_75025.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_17_85658_75024.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_17_85658_75025.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_17_85659_75024.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_17_85659_75025.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_17_85683_75017.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_17_85683_75018.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_17_85684_75017.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_17_85684_75018.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_17_85685_75017.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_17_85685_75018.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_17_85686_75017.png  
+  inflating: /out/quantumcare/App/cache/26a7511794_17_85686_75018.png  
+   creating: /out/quantumcare/App/ios/
+  inflating: /out/quantumcare/App/ios/.gitignore  
+   creating: /out/quantumcare/App/ios/Flutter/
+  inflating: /out/quantumcare/App/ios/Flutter/AppFrameworkInfo.plist  
+  inflating: /out/quantumcare/App/ios/Flutter/Debug.xcconfig  
+   creating: /out/quantumcare/App/ios/Flutter/ephemeral/
+  inflating: /out/quantumcare/App/ios/Flutter/ephemeral/flutter_lldbinit  
+  inflating: /out/quantumcare/App/ios/Flutter/ephemeral/flutter_lldb_helper.py  
+  inflating: /out/quantumcare/App/ios/Flutter/flutter_export_environment.sh  
+  inflating: /out/quantumcare/App/ios/Flutter/Generated.xcconfig  
+  inflating: /out/quantumcare/App/ios/Flutter/Release.xcconfig  
+   creating: /out/quantumcare/App/ios/Runner/
+  inflating: /out/quantumcare/App/ios/Runner/AppDelegate.swift  
+   creating: /out/quantumcare/App/ios/Runner/Assets.xcassets/
+   creating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png  
+   creating: /out/quantumcare/App/ios/Runner/Assets.xcassets/LaunchImage.imageset/
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png  
+  inflating: /out/quantumcare/App/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md  
+   creating: /out/quantumcare/App/ios/Runner/Base.lproj/
+  inflating: /out/quantumcare/App/ios/Runner/Base.lproj/LaunchScreen.storyboard  
+  inflating: /out/quantumcare/App/ios/Runner/Base.lproj/Main.storyboard  
+  inflating: /out/quantumcare/App/ios/Runner/GeneratedPluginRegistrant.h  
+  inflating: /out/quantumcare/App/ios/Runner/GeneratedPluginRegistrant.m  
+  inflating: /out/quantumcare/App/ios/Runner/Info.plist  
+  inflating: /out/quantumcare/App/ios/Runner/Runner-Bridging-Header.h  
+   creating: /out/quantumcare/App/ios/Runner.xcodeproj/
+  inflating: /out/quantumcare/App/ios/Runner.xcodeproj/project.pbxproj  
+   creating: /out/quantumcare/App/ios/Runner.xcodeproj/project.xcworkspace/
+  inflating: /out/quantumcare/App/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata  
+   creating: /out/quantumcare/App/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/
+  inflating: /out/quantumcare/App/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist  
+  inflating: /out/quantumcare/App/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings  
+   creating: /out/quantumcare/App/ios/Runner.xcodeproj/xcshareddata/
+   creating: /out/quantumcare/App/ios/Runner.xcodeproj/xcshareddata/xcschemes/
+  inflating: /out/quantumcare/App/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme  
+   creating: /out/quantumcare/App/ios/Runner.xcworkspace/
+  inflating: /out/quantumcare/App/ios/Runner.xcworkspace/contents.xcworkspacedata  
+   creating: /out/quantumcare/App/ios/Runner.xcworkspace/xcshareddata/
+  inflating: /out/quantumcare/App/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist  
+  inflating: /out/quantumcare/App/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings  
+   creating: /out/quantumcare/App/ios/RunnerTests/
+  inflating: /out/quantumcare/App/ios/RunnerTests/RunnerTests.swift  
+   creating: /out/quantumcare/App/lib/
+  inflating: /out/quantumcare/App/lib/main.dart  
+   creating: /out/quantumcare/App/linux/
+  inflating: /out/quantumcare/App/linux/.gitignore  
+  inflating: /out/quantumcare/App/linux/CMakeLists.txt  
+   creating: /out/quantumcare/App/linux/flutter/
+  inflating: /out/quantumcare/App/linux/flutter/CMakeLists.txt  
+   creating: /out/quantumcare/App/linux/flutter/ephemeral/
+   creating: /out/quantumcare/App/linux/flutter/ephemeral/.plugin_symlinks/
+  inflating: /out/quantumcare/App/linux/flutter/generated_plugins.cmake  
+  inflating: /out/quantumcare/App/linux/flutter/generated_plugin_registrant.cc  
+  inflating: /out/quantumcare/App/linux/flutter/generated_plugin_registrant.h  
+   creating: /out/quantumcare/App/linux/runner/
+  inflating: /out/quantumcare/App/linux/runner/CMakeLists.txt  
+  inflating: /out/quantumcare/App/linux/runner/main.cc  
+  inflating: /out/quantumcare/App/linux/runner/my_application.cc  
+  inflating: /out/quantumcare/App/linux/runner/my_application.h  
+   creating: /out/quantumcare/App/macos/
+  inflating: /out/quantumcare/App/macos/.gitignore  
+   creating: /out/quantumcare/App/macos/Flutter/
+   creating: /out/quantumcare/App/macos/Flutter/ephemeral/
+  inflating: /out/quantumcare/App/macos/Flutter/ephemeral/Flutter-Generated.xcconfig  
+  inflating: /out/quantumcare/App/macos/Flutter/ephemeral/flutter_export_environment.sh  
+  inflating: /out/quantumcare/App/macos/Flutter/Flutter-Debug.xcconfig  
+  inflating: /out/quantumcare/App/macos/Flutter/Flutter-Release.xcconfig  
+  inflating: /out/quantumcare/App/macos/Flutter/GeneratedPluginRegistrant.swift  
+   creating: /out/quantumcare/App/macos/Runner/
+  inflating: /out/quantumcare/App/macos/Runner/AppDelegate.swift  
+   creating: /out/quantumcare/App/macos/Runner/Assets.xcassets/
+   creating: /out/quantumcare/App/macos/Runner/Assets.xcassets/AppIcon.appiconset/
+  inflating: /out/quantumcare/App/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png  
+  inflating: /out/quantumcare/App/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png  
+  inflating: /out/quantumcare/App/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png  
+  inflating: /out/quantumcare/App/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png  
+  inflating: /out/quantumcare/App/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png  
+  inflating: /out/quantumcare/App/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png  
+  inflating: /out/quantumcare/App/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png  
+  inflating: /out/quantumcare/App/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json  
+   creating: /out/quantumcare/App/macos/Runner/Base.lproj/
+  inflating: /out/quantumcare/App/macos/Runner/Base.lproj/MainMenu.xib  
+   creating: /out/quantumcare/App/macos/Runner/Configs/
+  inflating: /out/quantumcare/App/macos/Runner/Configs/AppInfo.xcconfig  
+  inflating: /out/quantumcare/App/macos/Runner/Configs/Debug.xcconfig  
+  inflating: /out/quantumcare/App/macos/Runner/Configs/Release.xcconfig  
+  inflating: /out/quantumcare/App/macos/Runner/Configs/Warnings.xcconfig  
+  inflating: /out/quantumcare/App/macos/Runner/DebugProfile.entitlements  
+  inflating: /out/quantumcare/App/macos/Runner/Info.plist  
+  inflating: /out/quantumcare/App/macos/Runner/MainFlutterWindow.swift  
+  inflating: /out/quantumcare/App/macos/Runner/Release.entitlements  
+   creating: /out/quantumcare/App/macos/Runner.xcodeproj/
+  inflating: /out/quantumcare/App/macos/Runner.xcodeproj/project.pbxproj  
+   creating: /out/quantumcare/App/macos/Runner.xcodeproj/project.xcworkspace/
+   creating: /out/quantumcare/App/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/
+  inflating: /out/quantumcare/App/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist  
+   creating: /out/quantumcare/App/macos/Runner.xcodeproj/xcshareddata/
+   creating: /out/quantumcare/App/macos/Runner.xcodeproj/xcshareddata/xcschemes/
+  inflating: /out/quantumcare/App/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme  
+   creating: /out/quantumcare/App/macos/Runner.xcworkspace/
+  inflating: /out/quantumcare/App/macos/Runner.xcworkspace/contents.xcworkspacedata  
+   creating: /out/quantumcare/App/macos/Runner.xcworkspace/xcshareddata/
+  inflating: /out/quantumcare/App/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist  
+   creating: /out/quantumcare/App/macos/RunnerTests/
+  inflating: /out/quantumcare/App/macos/RunnerTests/RunnerTests.swift  
+  inflating: /out/quantumcare/App/pubspec.lock  
+  inflating: /out/quantumcare/App/pubspec.yaml  
+  inflating: /out/quantumcare/App/README.md  
+   creating: /out/quantumcare/App/test/
+  inflating: /out/quantumcare/App/wban_monitor.iml  
+   creating: /out/quantumcare/App/web/
+  inflating: /out/quantumcare/App/web/favicon.png  
+   creating: /out/quantumcare/App/web/icons/
+  inflating: /out/quantumcare/App/web/icons/Icon-192.png  
+  inflating: /out/quantumcare/App/web/icons/Icon-512.png  
+  inflating: /out/quantumcare/App/web/icons/Icon-maskable-192.png  
+  inflating: /out/quantumcare/App/web/icons/Icon-maskable-512.png  
+  inflating: /out/quantumcare/App/web/index.html  
+  inflating: /out/quantumcare/App/web/manifest.json  
+   creating: /out/quantumcare/App/windows/
+  inflating: /out/quantumcare/App/windows/.gitignore  
+  inflating: /out/quantumcare/App/windows/CMakeLists.txt  
+   creating: /out/quantumcare/App/windows/flutter/
+  inflating: /out/quantumcare/App/windows/flutter/CMakeLists.txt  
+   creating: /out/quantumcare/App/windows/flutter/ephemeral/
+   creating: /out/quantumcare/App/windows/flutter/ephemeral/.plugin_symlinks/
+  inflating: /out/quantumcare/App/windows/flutter/ephemeral/generated_config.cmake  
+  inflating: /out/quantumcare/App/windows/flutter/generated_plugins.cmake  
+  inflating: /out/quantumcare/App/windows/flutter/generated_plugin_registrant.cc  
+  inflating: /out/quantumcare/App/windows/flutter/generated_plugin_registrant.h  
+   creating: /out/quantumcare/App/windows/runner/
+  inflating: /out/quantumcare/App/windows/runner/CMakeLists.txt  
+  inflating: /out/quantumcare/App/windows/runner/flutter_window.cpp  
+  inflating: /out/quantumcare/App/windows/runner/flutter_window.h  
+  inflating: /out/quantumcare/App/windows/runner/main.cpp  
+  inflating: /out/quantumcare/App/windows/runner/resource.h  
+   creating: /out/quantumcare/App/windows/runner/resources/
+  inflating: /out/quantumcare/App/windows/runner/resources/app_icon.ico  
+  inflating: /out/quantumcare/App/windows/runner/runner.exe.manifest  
+  inflating: /out/quantumcare/App/windows/runner/Runner.rc  
+  inflating: /out/quantumcare/App/windows/runner/utils.cpp  
+  inflating: /out/quantumcare/App/windows/runner/utils.h  
+  inflating: /out/quantumcare/App/windows/runner/win32_window.cpp  
+  inflating: /out/quantumcare/App/windows/runner/win32_window.h  
+Error: EACCES: permission denied, rename '/out/quantumcare/App/.dart_tool' -> '/out/quantumcare/.dart_tool'
+    at Object.renameSync (node:fs:1035:3)
+    at flattenSingleFolder (/nix/store/s24x7lkcfl5f086psp5584zxpg9rnira-unzipper.ts:134:12)
+    at unzipFile (/nix/store/s24x7lkcfl5f086psp5584zxpg9rnira-unzipper.ts:54:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async main (/nix/store/s24x7lkcfl5f086psp5584zxpg9rnira-unzipper.ts:27:5) {
+  errno: -13,
+  syscall: 'rename',
+  code: 'EACCES',
+  path: '/out/quantumcare/App/.dart_tool',
+  dest: '/out/quantumcare/.dart_tool'
+}
