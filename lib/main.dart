@@ -233,13 +233,27 @@ class _MainScreenState extends State<MainScreen> with SingleTickerProviderStateM
   Widget _buildMapTab() {
     return FlutterMap(
       options: MapOptions(
-        initialCenter: const LatLng(51.5074, -0.1278), // London
-        initialZoom: 12.0,
+        initialCenter: const LatLng(25.408966, 68.260107), // Mehran University
+        initialZoom: 15.0,
       ),
       children: [
         TileLayer(
           urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
           userAgentPackageName: 'com.wban.app',
+        ),
+        MarkerLayer(
+          markers: [
+            Marker(
+              width: 80.0,
+              height: 80.0,
+              point: const LatLng(25.4146, 68.2616),
+              child: const Icon(
+                Icons.location_on,
+                color: Colors.red,
+                size: 40.0,
+              ),
+            ),
+          ],
         ),
       ],
     );
