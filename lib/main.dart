@@ -1,3 +1,4 @@
+import 'dart:math';
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:flutter_map/flutter_map.dart';
@@ -59,6 +60,8 @@ class _MainScreenState extends State<MainScreen> with SingleTickerProviderStateM
   String _fallStatus = "Waiting...";
   Color _fallColor = Colors.grey;
   String _tempState = "Waiting...";
+  bool _isVerifying = false;
+  String _verifyingText = "CROSS VERIFY DATA";
 
   late TabController _tabController;
   late DatabaseReference _databaseReference;
@@ -66,6 +69,7 @@ class _MainScreenState extends State<MainScreen> with SingleTickerProviderStateM
   StreamSubscription? _gyroSubscription;
   StreamSubscription? _tempStateSubscription;
   StreamSubscription? _tempObjectSubscription;
+  Timer? _verifyingTimer;
 
   @override
   void initState() {
@@ -131,15 +135,53 @@ class _MainScreenState extends State<MainScreen> with SingleTickerProviderStateM
     _gyroSubscription?.cancel();
     _tempStateSubscription?.cancel();
     _tempObjectSubscription?.cancel();
+    _verifyingTimer?.cancel();
     _tabController.dispose();
     super.dispose();
   }
 
   void _verifyAction() {
-    print("Security: Sending verification request...");
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text("Security: Sending verification request...")),
-    );
+    if (_isVerifying) return;
+
+    setState(() {
+      _isVerifying = true;
+      _verifyingText = "Verifying.";
+    });
+
+    _verifyingTimer = Timer.periodic(const Duration(milliseconds: 500), (timer) {
+      setState(() {
+        if (_verifyingText == "Verifying...") {
+          _verifyingText = "Verifying.";
+        } else {
+          _verifyingText += ".";
+        }
+      });
+    });
+
+    final random = Random();
+    final verificationTime = 5 + random.nextInt(6); // 5 to 10 seconds
+
+    Timer(Duration(seconds: verificationTime), () {
+      _verifyingTimer?.cancel();
+      setState(() {
+        _isVerifying = false;
+        _verifyingText = "CROSS VERIFY DATA";
+      });
+
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text("Verification Complete"),
+          content: const Text("Verified."),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: const Text("OK"),
+            ),
+          ],
+        ),
+      );
+    });
   }
 
   void _recalibrateAction() {
@@ -221,7 +263,7 @@ class _MainScreenState extends State<MainScreen> with SingleTickerProviderStateM
               width: MediaQuery.of(context).size.width * 0.7,
               height: 50,
               child: ElevatedButton(
-                onPressed: _verifyAction,
+                onPressed: _isVerifying ? null : _verifyAction,
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xFF142647), // Navy Blue
                   elevation: 8,
@@ -229,8 +271,8 @@ class _MainScreenState extends State<MainScreen> with SingleTickerProviderStateM
                     borderRadius: BorderRadius.circular(4),
                   ),
                 ),
-                child: const Text(
-                  "CROSS VERIFY DATA",
+                child: Text(
+                  _verifyingText,
                   style: TextStyle(fontSize: 18, color: Colors.white),
                 ),
               ),
