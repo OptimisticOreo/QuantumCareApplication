@@ -172,7 +172,7 @@ class _MainScreenState extends State<MainScreen> with SingleTickerProviderStateM
         context: context,
         builder: (context) => AlertDialog(
           title: const Text("Verification Complete"),
-          content: const Text("Verified."),
+          content: const Text("Last interval of data has been verified from the Block chain"),
           actions: [
             TextButton(
               onPressed: () => Navigator.of(context).pop(),
